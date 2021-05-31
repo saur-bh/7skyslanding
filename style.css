@@ -1,0 +1,47 @@
+
+/* CSS default template to be used */
+html{
+
+    box-sizing: border-box;
+}
+
+body{
+
+    margin: 0%;
+    min-height: 100vh;
+    background-color: #f8f5f1;
+    text-align: center; 
+    
+
+}
+
+.image {
+    width: 35%;
+    height: 75% ;
+    animation:spin 5s linear infinite;
+}
+@keyframes spin { 70% {transform:rotate3d(0, 1, 0, 3.142rad); } }
+
+p{
+    font-family: 'Sofia' ,sans-serif;
+}
+
+.changefont{
+
+    font-family: 'Rock Salt', cursive;
+}
+
+.img-contact{
+    border-radius: 30%;
+    width:60px;
+    padding:5px
+}
+
+.mymargin{
+    margin-top:2%
+
+}
+
+
+
+
