@@ -36,9 +36,12 @@ p{
 
 .changefont{
 
-    font-family: 'Rock Salt', cursive;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: lighter;
-    color: #00ead3; 
+    color: #0b5a52;
+    opacity: 1.2;
+    font-size: small;
+
 }
 
 .img-contact{
@@ -52,6 +55,31 @@ p{
 
 }
 
+
+span{
+    font-weight: bold;
+    text-align: justify;
+    margin-right: 5px;
+    font-size: 1.0rem;
+  }
+  
+
+  footer{
+    margin: 10px;
+     font-weight:bold;
+    font-size: xx-small;
+    display: flex;
+    flex-direction:column;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  @media only screen and (max-width: 500px) {
+    .image {
+        width: 20%;
+        height:250px; 
+  }
+    
+  }
 
 
 
